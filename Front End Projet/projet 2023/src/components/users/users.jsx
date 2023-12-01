@@ -18,8 +18,8 @@ const User = () => {
     };
 
     useEffect(() => {
-        users();
-    }, []);
+        usersList.lenght === 0 ? getAll() : null;
+    }, [usersList]);
 
     return (
         <section>
