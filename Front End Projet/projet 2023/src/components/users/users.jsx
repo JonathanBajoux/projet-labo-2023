@@ -7,7 +7,6 @@ const User = () => {
 
     const users = async () => {
         try {
-            console.log('coucou');
             const result = await GetAllWithSprites();
 
             if (result) {
