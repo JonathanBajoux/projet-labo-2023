@@ -3,15 +3,12 @@ import { GetAllWithSprites } from '../../api/api';
 
 const User = () => {
 
-    const [userList, setUserList] = useState([]);
+    const [userList, setUsersList] = useState([]);
 
-    const users = async () => {
+    const getAll = async () => {
         try {
-            const result = await GetAllWithSprites();
-
-            if (result) {
-                console.log(result);
-            }
+            const userData = await GetAllWithSprites();
+            setUsersList(userData);
         } catch (err) {
             console.error(err);
         }
