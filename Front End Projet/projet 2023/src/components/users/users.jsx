@@ -5,7 +5,7 @@ const User = () => {
 
     const [userList, setUserList] = useState([]);
 
-    const users = async () => {
+    const getAll = async () => {
         try {
             const result = await GetAllWithSprites();
 
@@ -23,11 +23,11 @@ const User = () => {
 
     return (
         <section>
-            {userList.map((user) => (
+            {usersList.map((user) => (
                 <div key={user.id}>
-                    <p>{user.firstname}</p>
-                    <p>{user.lastname}</p>
-                    <p>{user.gender}</p>
+                    <p>{user.nom}</p>
+                    <p>{user.prenom}</p>
+                    <p>{user.role}</p>
                 </div>
 
             ))}
