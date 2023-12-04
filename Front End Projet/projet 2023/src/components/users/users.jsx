@@ -3,28 +3,34 @@ import { GetAllWithSprites } from '../../api/api';
 
 const User = () => {
 
-    const [userList, setUsersList] = useState([]);
+    const [userList, setUserList] = useState([]);
 
-    const getAll = async () => {
+    const getAllUsers = async () => {
         try {
-            const userData = await GetAllWithSprites();
-            setUsersList(userData);
+            const result = await GetAllWithSprites();
+
+            if (result) {
+                setUserList(result);
+            }
         } catch (err) {
             console.error(err);
         }
     };
 
     useEffect(() => {
-        usersList.lenght === 0 ? getAll() : null;
-    }, [usersList]);
+
+        if (userList.lenght === 0) {
+            getAllUsers();
+        }
+    }, [userList]);
 
     return (
         <section>
-            {usersList.map((user) => (
+            {userList.map((user) => (
                 <div key={user.id}>
-                    <p>{user.lastname}</p>
-                    <p>{user.firstname}</p>
-                    <p>{user.gender}</p>
+                    <p>{user.nom}</p>
+                    <p>{user.prenom}</p>
+                    <p>{user.role}</p>
                 </div>
 
             ))}

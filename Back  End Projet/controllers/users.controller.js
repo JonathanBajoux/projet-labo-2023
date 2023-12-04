@@ -24,7 +24,6 @@ const usersController = {
 
     getAll: async (req, res) => {
         try {
-            console.log('test getAll');
             const usersDTO = await userService.fetchAll();
             res.status(200).json(usersDTO);
 
@@ -33,11 +32,7 @@ const usersController = {
         }
 
     },
-
-    coucou: async (req, res) => {
-        console.log('test');
-    },
-
+    
     add: async (req, res) => {
         const userData = req.body;
         console.log(userData);
