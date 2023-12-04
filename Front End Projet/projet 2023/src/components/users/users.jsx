@@ -3,15 +3,12 @@ import { GetAllWithSprites } from '../../api/api';
 
 const User = () => {
 
-    const [userList, setUserList] = useState([]);
+    const [usersList, setUsersList] = useState([]);
 
     const getAll = async () => {
         try {
-            const result = await GetAllWithSprites();
-
-            if (result) {
-                console.log(result);
-            }
+            const userData = await GetAllWithSprites();
+            setUsersList(userData);
         } catch (err) {
             console.error(err);
         }
@@ -25,9 +22,9 @@ const User = () => {
         <section>
             {usersList.map((user) => (
                 <div key={user.id}>
-                    <p>{user.nom}</p>
-                    <p>{user.prenom}</p>
-                    <p>{user.role}</p>
+                    <p>{user.firstname}</p>
+                    <p>{user.lastname}</p>
+                    <p>{user.gender}</p>
                 </div>
 
             ))}
