@@ -20,11 +20,11 @@ const User = () => {
 
     return (
         <section>
-            {userList.map((user) => (
+            {usersList.map((user) => (
                 <div key={user.id}>
-                    <p>{user.nom}</p>
-                    <p>{user.prenom}</p>
-                    <p>{user.role}</p>
+                    <p>{user.lastname}</p>
+                    <p>{user.firstname}</p>
+                    <p>{user.gender}</p>
                 </div>
 
             ))}
