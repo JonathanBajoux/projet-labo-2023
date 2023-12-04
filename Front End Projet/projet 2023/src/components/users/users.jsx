@@ -25,9 +25,9 @@ const User = () => {
         <section>
             {userList.map((user) => (
                 <div key={user.id}>
-                    <p>{user.nom}</p>
-                    <p>{user.prenom}</p>
-                    <p>{user.role}</p>
+                    <p>{user.firstname}</p>
+                    <p>{user.lastname}</p>
+                    <p>{user.gender}</p>
                 </div>
 
             ))}

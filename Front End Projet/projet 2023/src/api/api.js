@@ -8,9 +8,9 @@ export const GetAllWithSprites = async () => {
         const userList = listResponse.data;
         
         const userData = userList.map(async (user) => {
-            const userResponse = await axios.get(`http://localhost:8080/api/${user.name}`);
+            const userResponse = await axios.get(`http://localhost:8080/api/${user.lastname}`);
             const id = userResponse.data.id;
-            return {id: id, name:user.name};
+            return {id: id, name:user.lastname};
         })
 
         const users = await Promise.all(userData);

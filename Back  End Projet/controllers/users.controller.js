@@ -1,5 +1,3 @@
-
-
 const userService = require('../services/users.service');
 const userValidator = require('../validators/users.validator');
 
