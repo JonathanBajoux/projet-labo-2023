@@ -1,41 +1,38 @@
-import { useEffect, useState } from "react";
-import { GetAllWithSprites } from '../../api/api';
+// import { useEffect, useState } from "react";
+// import { GetAllWithSprites } from '../../api/api';
 
-const User = () => {
+// const User = () => {
 
-    const [userList, setUserList] = useState([]);
+//     const [usersList, setUserList] = useState([]);
 
-    const getAllUsers = async () => {
-        try {
-            const result = await GetAllWithSprites();
+//     const user = async () => {
+//         try {
+//             const result = await GetAllWithSprites();
 
-            if (result) {
-                setUserList(result);
-            }
-        } catch (err) {
-            console.error(err);
-        }
-    };
+//             if (result) {
+//                 console.log(result);
+//             }
+//         } catch (err) {
+//             console.error(err);
+//         }
+//     };
 
-    useEffect(() => {
+//     useEffect(() => {
+//         usersList.lenght === 0 ? getAll() : null;
+//     }, [usersList]);
 
-        if (userList.lenght === 0) {
-            getAllUsers();
-        }
-    }, [userList]);
+//     return (
+//         <section>
+//             {usersList.map((user) => (
+//                 <div key={user.id}>
+//                     <p>{user.nom}</p>
+//                     <p>{user.prenom}</p>
+//                     <p>{user.role}</p>
+//                 </div>
 
-    return (
-        <section>
-            {userList.map((user) => (
-                <div key={user.id}>
-                    <p>{user.nom}</p>
-                    <p>{user.prenom}</p>
-                    <p>{user.role}</p>
-                </div>
+//             ))}
+//         </section>
+//     );
+// };
 
-            ))}
-        </section>
-    );
-};
-
-export default User;
+// export default User;

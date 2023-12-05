@@ -1,12 +1,15 @@
 import './App.scss';
-import User from './components/users/users';
+import Head from './components/head/head';
+import NavBar from './components/navbar/navbar';
+import Footer from './components/footer/footer';
 
 function App() {
 
   return (
     <>
-      <h1> Site d'actu du jeux vidéo </h1>
-      <User />
+      <Head />
+      <NavBar />
+      <Footer />
     </>
   );
 
