@@ -2,11 +2,47 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 150px;
+  grid-column-gap: 10px;
   grid-row-gap: 100px;
   justify-content: center;
   align-content: center;
-  margin-left: 100px;
+  margin-left: 150px;
   font-size: 30px;
-  padding-top: 300px;
+  padding-top: 295px;
+}
+
+.article1 {
+  border: solid 1px black;
+  width: 20vw;
+  height: 30vh;
+}
+
+.article2 {
+  border: solid 1px black;
+  width: 20vw;
+  height: 30vh;
+}
+
+.article3 {
+  border: solid 1px black;
+  width: 20vw;
+  height: 30vh;
+}
+
+.article4 {
+  border: solid 1px black;
+  width: 20vw;
+  height: 30vh;
+}
+
+.article5 {
+  border: solid 1px black;
+  width: 20vw;
+  height: 30vh;
+}
+
+.article6 {
+  border: solid 1px black;
+  width: 20vw;
+  height: 30vh;
 }/*# sourceMappingURL=body.css.map */
