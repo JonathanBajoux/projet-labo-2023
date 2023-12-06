@@ -1,0 +1,32 @@
+.bouton-container {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 82rem;
+    padding-top: 15px;
+
+    #search {
+        margin-right: 25px;
+    }
+
+    .types-bouton1 {
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .types-bouton2 {
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+        margin-right: 20px;
+        white-space: nowrap;
+    }
+
+    .types-bouton3 {
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+}

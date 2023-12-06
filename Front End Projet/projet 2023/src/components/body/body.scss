@@ -1,0 +1,12 @@
+.article-jeux {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 400px;
+    grid-row-gap: 100px;
+    justify-content: center;
+    align-content: center;
+    margin-left: 1000px;
+    font-size: 30px;
+    padding-top: 50px;
+}

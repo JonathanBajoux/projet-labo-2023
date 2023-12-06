@@ -1,1 +1,28 @@
-/*# sourceMappingURL=navbar.css.map */
+.bouton-container {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 82rem;
+  padding-top: 15px;
+}
+.bouton-container #search {
+  margin-right: 25px;
+}
+.bouton-container .types-bouton1 {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.bouton-container .types-bouton2 {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  margin-right: 20px;
+  white-space: nowrap;
+}
+.bouton-container .types-bouton3 {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  margin-right: 20px;
+}/*# sourceMappingURL=navbar.css.map */
