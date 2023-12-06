@@ -3,9 +3,11 @@ import './footer.scss';
 
 const Footer = () => {
     return (
-        <footer className='Footer'>
-            <p>Créative projet 2023</p>
-        </footer>
+        <div className='background2'>
+            <footer className='Footer'>
+                <p className='text1'>Créative projet 2023</p>
+            </footer>
+        </div>
     );
 };
 

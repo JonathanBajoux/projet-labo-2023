@@ -1,14 +1,17 @@
+.background1 {
+    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+    height: 60px;
+
+}
+
 .bouton-container {
     display: flex;
     align-items: flex-end;
     margin-left: 82rem;
-    padding-top: 15px;
+    padding-bottom: 0.5%;
 
-    .background {
-        background-color: red;
-        display: flex;
-        justify-content: flex-start;
-    }
 
     #search {
         margin-right: 25px;

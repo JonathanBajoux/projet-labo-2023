@@ -5,5 +5,15 @@
   justify-content: center;
   text-align: center;
   margin-left: 100px;
-  padding-top: 180px;
+  padding-top: 5px;
+}
+
+.background2 {
+  background-color: black;
+  height: 64px;
+  margin-top: 175px;
+}
+
+.text1 {
+  color: white;
 }/*# sourceMappingURL=footer.css.map */
