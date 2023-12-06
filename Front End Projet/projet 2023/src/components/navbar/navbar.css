@@ -3,7 +3,11 @@
   align-items: flex-end;
   margin-left: 82rem;
   padding-top: 15px;
-  background: #ff0000;
+}
+.bouton-container .background {
+  background-color: red;
+  display: flex;
+  justify-content: flex-start;
 }
 .bouton-container #search {
   margin-right: 25px;
