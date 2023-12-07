@@ -8,7 +8,7 @@ import Footer from './components/footer/footer';
 function App() {
 
   return (
-    <body className='font'>
+    <body>
       <Head />
       <NavBar />
       <Body />

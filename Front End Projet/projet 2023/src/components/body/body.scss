@@ -1,54 +1,32 @@
-.article-jeux {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 100px;
-    justify-content: center;
-    align-content: center;
-    margin-left: 150px;
-    font-size: 30px;
-    padding-top: 200px;
-}
+main {
 
-.article1 {
-    border: solid 1px black;
-    border-radius: 25px 25px 25px 25px;
-    width: 20vw;
-    height: 30vh;
-}
+    .img {
+        background-image: url('/Front End Projet/projet 2023/src/assets/image/gta6.jpg');
+        background-size: cover;
 
-.article2 {
-    border: solid 1px black;
-    border-radius: 25px 25px 25px 25px;
-    width: 20vw;
-    height: 30vh;
-}
+        .article-jeux {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 100px;
+            justify-content: center;
+            align-content: center;
+            margin-left: 150px;
+            font-size: 30px;
+            padding-top: 200px;
 
-.article3 {
-    border: solid 1px black;
-    border-radius: 25px 25px 25px 25px;
-    width: 20vw;
-    height: 30vh;
-}
-
-.article4 {
-    border: solid 1px black;
-    border-radius: 25px 25px 25px 25px;
-    width: 20vw;
-    height: 30vh;
-}
-
-.article5 {
-    border: solid 1px black;
-    border-radius: 25px 25px 25px 25px;
-    width: 20vw;
-    height: 30vh;
-}
-
-.article6 {
-    border: solid 1px black;
-    border-radius: 25px 25px 25px 25px;
-    width: 20vw;
-    height: 30vh;
+            .article1,
+            .article2,
+            .article3,
+            .article4,
+            .article5,
+            .article6 {
+                border: solid 1px black;
+                border-radius: 25px 25px 25px 25px;
+                width: 20vw;
+                height: 30vh;
+            }
+        }
+    }
 }

@@ -19,6 +19,7 @@
   border: none;
   font-size: 20px;
   margin-right: 20px;
+  color: white;
 }
 .bouton-container .types-bouton2 {
   background-color: transparent;
@@ -26,10 +27,12 @@
   font-size: 20px;
   margin-right: 20px;
   white-space: nowrap;
+  color: white;
 }
 .bouton-container .types-bouton3 {
   background-color: transparent;
   border: none;
   font-size: 20px;
   margin-right: 20px;
+  color: white;
 }/*# sourceMappingURL=navbar.css.map */

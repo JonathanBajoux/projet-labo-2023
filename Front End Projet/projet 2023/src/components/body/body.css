@@ -1,4 +1,8 @@
-.article-jeux {
+main .img {
+  background-image: url("/Front End Projet/projet 2023/src/assets/image/gta6.jpg");
+  background-size: cover;
+}
+main .img .article-jeux {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -10,43 +14,12 @@
   font-size: 30px;
   padding-top: 200px;
 }
-
-.article1 {
-  border: solid 1px black;
-  border-radius: 25px 25px 25px 25px;
-  width: 20vw;
-  height: 30vh;
-}
-
-.article2 {
-  border: solid 1px black;
-  border-radius: 25px 25px 25px 25px;
-  width: 20vw;
-  height: 30vh;
-}
-
-.article3 {
-  border: solid 1px black;
-  border-radius: 25px 25px 25px 25px;
-  width: 20vw;
-  height: 30vh;
-}
-
-.article4 {
-  border: solid 1px black;
-  border-radius: 25px 25px 25px 25px;
-  width: 20vw;
-  height: 30vh;
-}
-
-.article5 {
-  border: solid 1px black;
-  border-radius: 25px 25px 25px 25px;
-  width: 20vw;
-  height: 30vh;
-}
-
-.article6 {
+main .img .article-jeux .article1,
+main .img .article-jeux .article2,
+main .img .article-jeux .article3,
+main .img .article-jeux .article4,
+main .img .article-jeux .article5,
+main .img .article-jeux .article6 {
   border: solid 1px black;
   border-radius: 25px 25px 25px 25px;
   width: 20vw;
