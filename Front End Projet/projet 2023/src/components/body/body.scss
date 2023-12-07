@@ -1,32 +1,40 @@
-main {
+    body {
+        padding: 0%;
+        margin: 0%;
 
-    .img {
-        background-image: url('/Front End Projet/projet 2023/src/assets/image/gta6.jpg');
-        background-size: cover;
 
-        .article-jeux {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            grid-column-gap: 10px;
-            grid-row-gap: 100px;
-            justify-content: center;
-            align-content: center;
-            margin-left: 150px;
-            font-size: 30px;
-            padding-top: 200px;
 
-            .article1,
-            .article2,
-            .article3,
-            .article4,
-            .article5,
-            .article6 {
-                border: solid 1px black;
-                border-radius: 25px 25px 25px 25px;
-                width: 20vw;
-                height: 30vh;
+        .img {
+            background-image: url('../../assets/image/gta6.jpg');
+            background-repeat: no-repeat;
+            margin-top: 0px;
+            height: 110vh;
+
+
+            .article-jeux {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                grid-column-gap: 10px;
+                grid-row-gap: 100px;
+                justify-content: center;
+                align-content: center;
+                margin-left: 150px;
+                font-size: 30px;
+                padding-top: 200px;
+
+                .article1,
+                .article2,
+                .article3,
+                .article4,
+                .article5,
+                .article6 {
+                    border: solid 1px white;
+                    border-radius: 25px 25px 25px 25px;
+                    width: 20vw;
+                    height: 30vh;
+                    color: white;
+                }
             }
         }
     }
-}

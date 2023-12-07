@@ -4,41 +4,50 @@
     justify-content: flex-start;
     height: 60px;
 
-}
-
-.bouton-container {
-    display: flex;
-    align-items: flex-end;
-    margin-left: 82rem;
-    padding-bottom: 0.5%;
-
-
-    #search {
-        margin-right: 25px;
+    .Logo {
+        background-size: 10%;
     }
 
-    .types-bouton1 {
-        background-color: transparent;
-        border: none;
-        font-size: 20px;
-        margin-right: 20px;
-        color: white;
+
+
+
+
+    .bouton-container {
+        display: flex;
+        align-items: flex-end;
+        margin-left: 75rem;
+        padding-bottom: 0.5%;
+
+
+        #search {
+            margin-right: 25px;
+        }
+
+        .types-bouton1 {
+            background-color: transparent;
+            border: none;
+            font-size: 20px;
+            margin-right: 20px;
+            color: white;
+        }
+
+        .types-bouton2 {
+            background-color: transparent;
+            border: none;
+            font-size: 20px;
+            margin-right: 20px;
+            white-space: nowrap;
+            color: white;
+        }
+
+        .types-bouton3 {
+            background-color: transparent;
+            border: none;
+            font-size: 20px;
+            margin-right: 20px;
+            color: white;
+        }
     }
 
-    .types-bouton2 {
-        background-color: transparent;
-        border: none;
-        font-size: 20px;
-        margin-right: 20px;
-        white-space: nowrap;
-        color: white;
-    }
 
-    .types-bouton3 {
-        background-color: transparent;
-        border: none;
-        font-size: 20px;
-        margin-right: 20px;
-        color: white;
-    }
 }
