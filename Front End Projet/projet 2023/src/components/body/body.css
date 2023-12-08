@@ -5,7 +5,6 @@ body {
 body .img {
   background-image: url("../../assets/image/gta6.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 250vh;
 }
 body .img .article-jeux {
@@ -20,7 +19,7 @@ body .img .article-jeux {
   font-size: 30px;
   padding-top: 200px;
   list-style-type: none;
-  border: solid 2px green;
+  border: none;
 }
 body .img .article-jeux .article1,
 body .img .article-jeux .article2,
