@@ -7,8 +7,9 @@
         .img {
             background-image: url('../../assets/image/gta6.jpg');
             background-repeat: no-repeat;
-            margin-top: 0px;
-            height: 110vh;
+            background-size: cover;
+            background-position: center;
+            height: 250vh;
 
 
             .article-jeux {
@@ -23,17 +24,23 @@
                 font-size: 30px;
                 padding-top: 200px;
 
-                .article1,
-                .article2,
-                .article3,
-                .article4,
-                .article5,
-                .article6 {
-                    border: solid 1px white;
-                    border-radius: 25px 25px 25px 25px;
-                    width: 20vw;
-                    height: 30vh;
-                    color: white;
+                .ul-article {
+
+
+
+
+                    .article1,
+                    .article2,
+                    .article3,
+                    .article4,
+                    .article5,
+                    .article6 {
+                        border: solid 1px white;
+                        border-radius: 25px 25px 25px 25px;
+                        width: 20vw;
+                        height: 30vh;
+                        color: white;
+                    }
                 }
             }
         }

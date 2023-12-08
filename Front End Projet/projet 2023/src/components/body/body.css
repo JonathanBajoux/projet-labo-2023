@@ -5,8 +5,9 @@ body {
 body .img {
   background-image: url("../../assets/image/gta6.jpg");
   background-repeat: no-repeat;
-  margin-top: 0px;
-  height: 110vh;
+  background-size: cover;
+  background-position: center;
+  height: 250vh;
 }
 body .img .article-jeux {
   display: grid;
@@ -20,12 +21,12 @@ body .img .article-jeux {
   font-size: 30px;
   padding-top: 200px;
 }
-body .img .article-jeux .article1,
-body .img .article-jeux .article2,
-body .img .article-jeux .article3,
-body .img .article-jeux .article4,
-body .img .article-jeux .article5,
-body .img .article-jeux .article6 {
+body .img .article-jeux .ul-article .article1,
+body .img .article-jeux .ul-article .article2,
+body .img .article-jeux .ul-article .article3,
+body .img .article-jeux .ul-article .article4,
+body .img .article-jeux .ul-article .article5,
+body .img .article-jeux .ul-article .article6 {
   border: solid 1px white;
   border-radius: 25px 25px 25px 25px;
   width: 20vw;
