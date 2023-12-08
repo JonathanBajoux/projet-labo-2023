@@ -1,42 +1,43 @@
 body {
     padding: 0%;
     margin: 0%;
+    background-color: chocolate;
 
     .img {
         background-image: url('../../assets/image/gta6.jpg');
         background-repeat: no-repeat;
-        // background-attachment: fixed;
+        background-attachment: fixed;
         // background-size: cover;
         // background-position: center;
         height: 250vh;
+    }
 
+    .article-jeux {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 11px;
+        justify-content: flex-start;
+        align-content: center;
+        margin-left: 150px;
+        font-size: 30px;
+        padding-bottom: 20px;
+        list-style-type: none;
+        border: none;
 
-        .article-jeux {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: repeat(6, 1fr);
-            grid-column-gap: 0px;
-            grid-row-gap: 11px;
-            justify-content: flex-start;
-            align-content: center;
-            margin-left: 150px;
-            font-size: 30px;
-            padding-top: 200px;
-            list-style-type: none;
-            border: none;
-
-            .article1,
-            .article2,
-            .article3,
-            .article4,
-            .article5,
-            .article6 {
-                border: solid 1px white;
-                border-radius: 25px 25px 25px 25px;
-                width: 20vw;
-                height: 30vh;
-                color: white;
-            }
+        .article1,
+        .article2,
+        .article3,
+        .article4,
+        .article5,
+        .article6 {
+            border: solid 1px white;
+            border-radius: 25px 25px 25px 25px;
+            width: 20vw;
+            height: 30vh;
+            color: white;
         }
     }
+
 }
