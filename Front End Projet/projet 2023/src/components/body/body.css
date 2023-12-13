@@ -5,7 +5,7 @@ body .img {
   background-size: cover;
   background-position: center;
   height: 250vh;
-  border: solid 3px blue;
+  border: none;
 }
 body .img .article-jeux {
   display: grid;
@@ -19,7 +19,6 @@ body .img .article-jeux {
   font-size: 30px;
   padding-top: 50px;
   list-style-type: none;
-  border: none;
 }
 body .img .article-jeux .article1,
 body .img .article-jeux .article2,
