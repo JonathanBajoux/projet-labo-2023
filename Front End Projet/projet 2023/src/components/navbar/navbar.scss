@@ -2,21 +2,17 @@
     background-color: red;
     display: flex;
     justify-content: flex-start;
-    height: 60px;
+    height: 70px;
 
     .Logo {
-        background-size: 10%;
+        background-size: 15%;
     }
-
-
-
-
 
     .bouton-container {
         display: flex;
         align-items: flex-end;
         margin-left: 75rem;
-        padding-bottom: 0.5%;
+        padding-bottom: 1%;
 
 
         #search {

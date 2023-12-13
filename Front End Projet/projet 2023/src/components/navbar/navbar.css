@@ -2,16 +2,16 @@
   background-color: red;
   display: flex;
   justify-content: flex-start;
-  height: 60px;
+  height: 70px;
 }
 .background1 .Logo {
-  background-size: 10%;
+  background-size: 15%;
 }
 .background1 .bouton-container {
   display: flex;
   align-items: flex-end;
   margin-left: 75rem;
-  padding-bottom: 0.5%;
+  padding-bottom: 1%;
 }
 .background1 .bouton-container #search {
   margin-right: 25px;

@@ -1,12 +1,14 @@
 body {
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
   background-color: chocolate;
 }
 body .img {
   background-image: url("../../assets/image/gta6.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
   height: 250vh;
 }
 body .article-jeux {
@@ -19,7 +21,7 @@ body .article-jeux {
   align-content: center;
   margin-left: 150px;
   font-size: 30px;
-  padding-bottom: 20px;
+  padding-top: 50px;
   list-style-type: none;
   border: none;
 }
