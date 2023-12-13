@@ -1,8 +1,3 @@
-body {
-  padding: 0;
-  margin: 0;
-  background-color: chocolate;
-}
 body .img {
   background-image: url("../../assets/image/gta6.jpg");
   background-repeat: no-repeat;
@@ -10,8 +5,9 @@ body .img {
   background-size: cover;
   background-position: center;
   height: 250vh;
+  border: solid 3px blue;
 }
-body .article-jeux {
+body .img .article-jeux {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr);
@@ -25,12 +21,12 @@ body .article-jeux {
   list-style-type: none;
   border: none;
 }
-body .article-jeux .article1,
-body .article-jeux .article2,
-body .article-jeux .article3,
-body .article-jeux .article4,
-body .article-jeux .article5,
-body .article-jeux .article6 {
+body .img .article-jeux .article1,
+body .img .article-jeux .article2,
+body .img .article-jeux .article3,
+body .img .article-jeux .article4,
+body .img .article-jeux .article5,
+body .img .article-jeux .article6 {
   border: solid 1px white;
   border-radius: 25px 25px 25px 25px;
   width: 20vw;
